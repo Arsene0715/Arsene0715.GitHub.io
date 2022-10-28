@@ -1,4 +1,4 @@
-body {
+.body {
   background-color: #aaffff;
 }
 .fake {
@@ -8,10 +8,24 @@ body {
 
 .container {
   background-color: rgb(0, 217, 255);
-  height: 1000px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
-img {
+.item {
+  background-color: cornsilk;
+  color: dodgerblue;
+  width: 100px;
+  font-size: 36px;
+  text-align: center;
+  margin: 10px;
+}
+.png {
   position: relative;
   top: 50px;
   left: 100px;
